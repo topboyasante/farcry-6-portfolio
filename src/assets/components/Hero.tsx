@@ -5,6 +5,7 @@ const Hero:React.FC = () => {
   return (
     <main className='w-full h-screen relative'>
         <img src={HeroBG} alt="farcry-6-hero" className='absolute object-cover w-full h-full'/>
+        <div className="w-full h-full absolute z-[10] bg-black opacity-50"></div>
         <section className="absolute w-full h-full z-[20] text-[#faa937]">
           <section className="flex flex-col justify-center items-center w-full h-full">
               <section className='text-center'>
