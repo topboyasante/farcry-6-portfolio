@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Archivo', sans-serif;
+}
+.text-bn{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.features{
+    background: linear-gradient(rgba(4,0,0,1),rgba(4,0,0,0.4)), url("https://image.api.playstation.com/vulcan/img/rnd/202105/2820/B46mJ4F6o97Lnq2ttApyPDOO.jpg");
+    background-size: cover;
+}
+
+
+.icon {
+    fill: rgb(255, 255, 255);
+    width: 93px;
+    height: 30px;
+}
